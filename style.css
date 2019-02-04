@@ -1,0 +1,264 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------- Header -----------------*/
+#header
+{
+    background-image: url(images/banner.png);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a
+{
+    float: right;
+    color: #fff!important;
+}
+.navbar-brand img
+{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggler
+{
+    border: none!important;
+    outline: none !important;
+}
+nav .fa-bars
+{
+    color: #fff;
+    font-size: 26px;
+}
+
+/*-----------------Photo Gallery-----------------*/
+
+.container
+{
+
+    width: 100%;
+    margin-top: 2%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+.container h2
+{
+    background: #0062cc;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+
+}
+
+.container h2::after
+{
+    content: '';
+    border-top: 40px solid #0062cc;
+    border-right: 40px solid transparent;
+    position: absolute;
+    margin-left: 48px;
+    margin-top: -5px;
+}
+.row
+{
+    margin-top: 30px;
+}
+
+img
+{
+    width: 100%;
+}
+.product-bottom .fa
+{
+    color: #28a745;
+    font-size: 10px;
+}
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.overlay
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+
+.img-resize
+{
+ height:300px;
+ object-fit: cover;
+ object-position: center center;
+
+}
+.product-top:hover .overlay
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.overlay .fa
+{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+}
+.overlay .btn-secondary
+{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.footer{
+    margin-top: 30px;
+    background: #ccc;
+    color: #333;
+}
+.footer a{
+    color: #333;
+    font-weight: bold;
+}
+
+
+/*-----------------------About us----------------------*/
+
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6
+{
+    padding: 20px 10px;
+}
+#about h3
+{
+    margin: 20px auto;
+}
+
+/*-------------Subscribe------------*/
+.subscribe
+{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
+}
+.subscribe h3, .subscribe p
+{
+    color: #fff;
+}
+
+.subscribe .input-group
+{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .form-control
+{
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus
+{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append
+{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+.subscribe .input-group-text
+{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.subscribe .btn:focus
+{
+    box-shadow: none;
+}
+
+/*-------------------Footer--------------------*/
+#footer
+{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+.footer-logo
+{
+    width: 120px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+#footer h1
+{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p
+{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city
+{
+    margin-left: 37px;
+
+}
+#footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer hr
+{
+    margin-top: 10px;
+}
+#footer .fa-smile-o
+{
+    color: red;
+    font-size: 17px;
+}
+#footer .copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
